@@ -1,0 +1,519 @@
+/*******************************
+Colors;
+Background - gray-white #f5f5f5
+Texts - blue #303841
+Texts - gray #303841BF
+Texts - black #000000
+Buttons - yellow #FFCD11
+Steps bg - pale-yellow #FFCD1180
+Steps -some blue #303841
+Another gray #D9D9D9
+**********************************/
+
+
+/* Genral style */
+html {
+    background-color: #F5F5F5;
+    padding: 0 50px;
+}
+
+body {
+    background-color: white;
+    margin: 0;
+}
+
+h1 {
+    color: #303841;
+}
+h1 {
+
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 90px;
+}
+
+/* Navigation */
+.navbar {
+    width: 1200px;
+    margin: 0 0 0 45px;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar-logo {
+    margin: 55px 55px 55px 80px;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    padding: 3.225rem;
+    padding-right: .5rem;
+}
+
+ul .nav-item {
+   
+    width: 150px;
+    height: 45px;
+
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 45px;
+}
+
+ul .nav-item a{
+    color: #303841;
+    text-decoration: none;
+
+    transition: all .5s ease-in-out;
+    position: relative;
+}
+
+ul .nav-item a:hover{
+    color: #FFCD11;
+    width: 100%;
+    transition: all .5s ease-in-out;
+}
+
+/* Header */
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-container {
+    width: 50%;
+
+    padding-left: 0 0 30px 30px;
+
+}
+.h1-header {
+    font-size: 48px;
+    line-height: 72px;
+}
+.p-large {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 36px;
+
+    color: rgba(48, 56, 65, 0.75);
+}
+
+.btn-get-started {
+    width: 200px;
+    height: 60px;
+    border-radius: 10px;
+    border: none;
+    margin-right: 30px;
+    
+    font-weight: 700;
+    font-size: 20px;
+
+    color: #303841;
+    background-color: #FFCD11;
+}
+
+.btn-get-started:hover {
+    border-color: #303841;
+    color: #FFCD11;
+    background-color: #303841;
+}
+
+.btn-small {
+    width: 200px;
+    height: 60px;
+    border-radius: 10px;
+    border-color: #303841BF;
+    margin-right: 30px;
+
+    font-weight: 700;
+    font-size: 20px;
+   
+}
+
+.btn-small:hover {
+    text-decoration: underline;
+}
+
+img {
+    padding: 100px;
+    width: 300px;
+    height: 300px;
+}
+
+/* Services */
+.h2-services {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin: 90px 0 20px 0;
+
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 60px;
+
+    color: #303841;
+}
+
+.service {
+    display: flex;
+}
+
+.service-image {
+    width: 470px;
+    height: 338px;
+
+    padding-top: 30px;
+    padding-right: 2.25rem;
+}
+
+.service-image1 {
+    width: 470px;
+    height: 338px;
+
+    padding-top: 30px;
+    padding-left: 50px;
+}
+
+.servcont {
+    width: 474px;
+    height: 60px;
+
+    padding: 3.75rem;
+    padding-top: 30px;
+}
+
+.servcont1 {
+    width: 470px;
+    height: 60px;
+
+    padding: 3.75rem;
+    padding-left: 100px;
+    padding-top: 10px;
+}
+
+.h1-service-header {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 60px;
+}
+
+.p-small {
+    width: 470px;
+    height: 225px;
+
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    font-size: 25px;
+    line-height: 35px;
+
+    color: #4a4848;
+    
+}
+
+/* Equipments */
+.h2-equipments {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin: 90px 0 20px 0;
+
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 60px;
+
+    color: #303841;
+}
+
+.cards1 {
+    display: flex;
+    justify-content: center;
+    margin-left: 35px;
+}
+.equipment-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    width: 340px;
+    height: 561px;
+    margin: 0 35px;
+
+    border-radius: 10px;
+    background-color: #D9D9D9;
+}
+
+.image-card {
+    padding: 10px;
+}
+.card-header {
+    margin: 10px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 42px;
+}
+
+.tag {
+    display: flex;
+}
+
+.tag i {
+    margin: 17px 0 0 0;
+}
+
+.loc {
+    display: flex;
+}
+
+.loc i {
+    margin: 17px 0 0 0;
+}
+
+.h2-card {
+    margin: 10px;
+
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+
+    color: #272323;
+}
+
+.card-button {
+    width: 259px;
+    height: 50px;
+
+    border: none;
+    background: #FFCD11;
+    border-radius: 10px;
+
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 42px;
+    
+
+
+    color: #303841;
+
+}
+.card-button:hover {
+    border-color: #303841;
+    color: #FFCD11;
+    background-color: #303841;
+}
+
+.equipments-button {
+    width: 259px;
+    height: 50px;
+
+    margin: 30px 600px;
+
+    border: none;
+    background: #FFCD11;
+    border-radius: 10px;
+
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 42px;
+    
+
+
+    color: #303841;
+
+}
+.equipments-button:hover {
+
+    border-color: #303841;
+    color: #FFCD11;
+    background-color: #303841;
+}
+
+/**** Steps ****/
+.steps-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #FFCD1180;
+}
+
+.p-steps-large {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 60px;
+
+    color: #303841;
+}
+
+ol {
+    list-style: none;
+}
+
+.step-item {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 54px;
+    margin: 70px 0;
+    text-align: center;
+
+    color: #303841;
+
+}
+
+/* Contact Us */
+.contactus-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.h2-contactus {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin: 90px 0 20px 0;
+
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 60px;
+
+    color: #303841;
+}
+
+.p-large-contact {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    font-size: 30px;
+    line-height: 48px;
+    text-align: center;
+
+    color: #4a4848;
+}
+
+.form-item {
+    margin: 20px;
+}
+
+
+input {
+    width: 710px;
+    height: 67px;
+
+    background: #D9D9D9;
+    border: 1px solid #303841;
+    border-radius: 5px;
+
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 30px;
+    text-align: start;
+
+    color: #303841;
+}
+
+.form-control {
+    width: 710px;
+    height: 40px;
+}
+
+.form-control1 {
+    width: 711px;
+    height: 100px;
+}
+
+.form-button {
+    margin: 0  20px;
+    width: 710px;
+    height: 49.76px;
+
+    background: #FFCD11;
+    border: none;
+    border-radius: 5px;
+
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+
+    color: #303841;
+
+}
+
+
+.form-button:hover {
+
+    border-color: #303841;
+    color: #FFCD11;
+    background-color: #303841;
+}
+
+/* Footer */
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    margin: 120px 0 0 0;
+    padding: 50px;
+
+    background-color: #303841;
+    color: #F5F5F5;
+
+}
+
+.footer-head {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 48px;
+
+    color: #F5F5F5;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h3 {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+
+    margin: 10px;
+}
+
+.p-small-footer {
+
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 48px;
+    text-align: center;
+}
